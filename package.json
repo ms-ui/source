@@ -7,19 +7,16 @@
     "presets": ["es2015"]
   },
   "scripts": {
-    "v1": "cnpm i vue@1.0.28 -s-d",
-    "v2": "cnpm i vue@2.0.1 -s-d",
-    "build": "cd ./build && sh ./build.sh"
+    "v1": "cnpm i vue@1.0.27",
+    "v2": "cnpm i vue@2.0.1",
+    "build": "cd ./build && node index.js"
   },
   "dependencies": {
-    "marked": "^0.3.6",
-    "vue": "^2.0.1",
+    "vue": "^1.0.27",
     "vue-router": "^2.0.0-rc.7",
     "vuets": "^0.9.0"
   },
   "devDependencies": {
-    "@types/vue": "^1.0.29",
-    "@types/vue-router": "^0.7.26",
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
